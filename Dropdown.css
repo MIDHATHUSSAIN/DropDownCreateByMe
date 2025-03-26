@@ -1,0 +1,63 @@
+.dropdownKey {
+    position:relative;
+    display: inline-block;
+    z-index:6000!important;
+    margin-bottom :2rem !important;
+}
+
+.midhat td {
+
+    padding-left : 90px !important;
+}
+.drpDwnBtn {
+    border: none !important;
+    width: 100%;
+    margin: 0px !important;
+    margin-top: 10px !important;
+    padding: 0px !important;
+    font-size: 12px !important;
+    line-height: 7px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+.drpDwnBt {
+    background-color: none !important;
+    background: none !important;
+    border : none !important;
+    margin: 0px !important;
+    margin-top: 0px !important;
+    padding: 0px !important;
+    font-size: 12px !important;
+    line-height: 5px !important;
+}
+
+.drpDwnBtn:hover {
+  background-color : none !important;
+  background : none !important;
+  border : none !important;
+ }
+.drpDwnBtn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.dropDownFinance {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    background-color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    line-height: 15px !important;
+    animation: ease-in-out;
+    right: 10px;
+    top: 20px;
+    display: none;
+    z-index: 7000 !important;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdownKey:hover .dropDownFinance {
+    display: block;
+}
